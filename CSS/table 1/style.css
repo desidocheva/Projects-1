@@ -1,0 +1,25 @@
+
+body
+{
+	background-color: #555
+}
+.italic
+{
+	font-style: italic; color: #FFF
+}
+.white
+{
+	color: #FFF
+}
+span
+{
+	color:red
+}
+#orange
+{
+	color: #BB6600
+}
+.gray
+{
+	color: #AAA
+}

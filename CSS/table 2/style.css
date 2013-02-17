@@ -1,0 +1,29 @@
+.first
+{
+	background-color: green; color:#FFF;
+}
+td
+{
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+table
+{
+	border: 1px solid gray
+}
+.gray
+{
+	background-color: #ddc;
+}
+.mexico
+{
+	background-image: url("mexico.jpg"); background-repeat: no-repeat; background-position: 2px center; padding-left: 27px;
+}
+.uk
+{
+background-image: url("uk.jpg"); background-repeat: no-repeat; background-position: 2px center; padding-left: 27px;
+}
+.germany
+{
+	background-image: url("germany.jpg"); background-repeat: no-repeat; background-position: 2px center; padding-left: 27px;
+}

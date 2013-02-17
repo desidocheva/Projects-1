@@ -1,0 +1,44 @@
+header
+{
+	font-size: 2em;
+	color: #fff;
+	background: url("shadow.jpg") no-repeat bottom left;
+	
+}
+body
+{
+	background: #3b3b3b;
+	color: #aaa;
+}
+form
+{
+	display: inline-block;
+}
+img
+{
+	margin: 10px;
+}
+h1
+{
+	color: #f9cc11;
+}
+p
+{
+	width: 600px;
+}
+p span
+{
+	color: white;
+}
+input[type="submit"]
+{
+	border: none;
+	color: White;
+	width: 56px;
+	height: 28px;
+	background: url("button.png") no-repeat;
+}
+input[type="submit"]:hover
+{
+	cursor: pointer;
+}

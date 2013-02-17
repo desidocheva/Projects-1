@@ -1,0 +1,67 @@
+header
+{
+	margin-left: 10px;
+}
+body
+{
+	font-family:"Arial Narrow";
+	background: #eee;
+}
+figure
+{
+	float: left;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin:0;
+	margin-right: 30px;
+}
+img
+{
+	
+	width: 180px;
+	height: 130px;
+	
+}
+
+
+button
+{
+	color: #fff;
+	background: url("button.png") repeat-y;
+	width: 70px;
+	height: 30px;
+}
+button:hover
+{
+	cursor: pointer;
+}
+article
+{
+	position: relative;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	width: 500px;
+	height: 130px;
+	margin: 50px;
+	margin-left: 10px;
+	padding:20px;
+}
+.clearfix
+{
+	zoom: 1;
+}
+.clearfix:after
+{
+	content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+div.form
+{
+	position: absolute;
+	bottom:20px;
+	right:20px;
+
+}

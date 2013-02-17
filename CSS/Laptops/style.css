@@ -1,0 +1,60 @@
+a:visited
+{	
+	font-size: 30pt;
+	color: #24b9f2;
+}a:link
+{
+	font-size: 30pt;
+	color: #24b9f2;
+}
+.out
+{
+	float: left;
+	border: 1px solid gray;
+	padding: 5px;
+}
+.clearfix
+{
+	zoom: 1;
+}
+.clearfix:after
+{
+	content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+img, .left
+{
+	float: left;
+}
+.FieldSetText
+{
+	position:relative;
+	top: 0px;
+	padding-left: 20px;
+	margin-right: 0px;
+	list-style-type: none;
+	margin-bottom: 0px;
+    width: 170px;
+
+}
+span
+{
+	margin-right: 20px;
+}
+li
+{
+	margin-bottom: 10px;
+}
+div li:last-child
+{
+	margin-bottom: 0px;
+}
+.price
+{
+	margin-left: 500px;
+	vertical-align: middle;
+	position: absolute;
+	top: 170px;
+}

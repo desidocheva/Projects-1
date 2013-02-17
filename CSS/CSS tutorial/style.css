@@ -1,0 +1,134 @@
+nav
+{
+	float: left;
+	padding-right: 50px;
+}
+ul
+{
+	list-style-type: none;
+	padding: 0;
+}
+li
+{
+	padding: 0;
+	margin: 0;
+}
+ul li:first-child > a
+{
+	color: #8c0100;
+	font-weight: bold;
+}
+ul li a
+{
+	text-decoration: none;
+	color: #000;
+}
+nav h2
+{
+	background: url("home.png") no-repeat left;
+	padding-left: 40px;
+}
+body
+{
+	background: #eee;
+}
+section
+{
+	display: inline-block;
+	background: white;
+	border: 1px solid #ccc;
+	width: 930px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.clearfix
+{
+	zoom: 1;
+}
+.clearfix:after
+{
+	content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+hr
+{
+	height: 2px;
+	background-color: #ccc;
+}
+aside section
+{
+	display: block;
+	width: 200px;
+	text-align: center;
+	padding: 0;
+	margin-bottom: 3px;
+	margin-left: 3px;
+}
+
+aside section header
+{
+	text-align: center;
+	color: white;
+	background-color: #999;
+}
+article header
+{
+	color: white;
+	background-color: #999;
+}
+article header span
+{
+	margin-left: 5px;
+}
+article div
+{
+	margin: 10px;
+	margin-left: 130px;
+}
+img.css
+{
+	float: left;
+}
+a
+{
+	color: #991e1d;
+}
+.firstArticle 
+{
+	margin-bottom: 10px;
+}
+.firstArticle > a
+{
+	color: #991e1d;
+	text-decoration: underline;
+}
+aside
+{
+	position: absolute;
+	left: 1140px;
+	top: 10px;
+	float: right;
+	display: inline-block;	
+}
+img.styles
+{
+	margin-top: 3px;
+}
+button
+{
+	width: 100px;
+	height: 25px;
+	border: 1px solid black;
+}
+button.left
+{
+	background: url("leftArrow.png") no-repeat;
+}
+button.right
+{
+	background: url("rightArrow.png") no-repeat;
+}

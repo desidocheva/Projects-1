@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+	form input[type="radio"] {
+    display: none; 
+		
+	}
+	nav {
+
+			ul, li {
+			  list-style-type: none;
+			  display: inline-block;
+				label{
+					&:hover{
+						cursor: pointer;
+					}
+
+				}
+			}
+		}
+		.big {
+			margin-left: 100px;
+			.image {
+			display: none;
+			border: 2px ridge black;
+			}
+			input:checked + .image {
+			display: block; 
+			}
+		}
+}
