@@ -1,0 +1,40 @@
+table, td
+{
+	border: 1px #ccc solid;
+	border-collapse=collapse;
+}
+.color
+{
+	background-color: #ebeff2;
+}
+.gradient
+{
+	background-image: url("gradient.jpg");
+}
+a:link
+{
+	color: gray;
+	text-decoration: none;
+}
+a:visited
+{
+	color: gray;
+	text-decoration: none;
+}
+a:hover
+{
+	border: 1px #9C9BBD solid; 
+	border-radius: 5px;
+}
+.pages
+{
+	
+	color: gray;
+	float: right;
+	font-size: 11pt;
+}
+.border
+{
+	border: 1px #9C9BBD solid; 
+	border-radius: 10px;
+}

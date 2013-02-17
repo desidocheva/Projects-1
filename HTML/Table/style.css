@@ -1,0 +1,26 @@
+table, td
+{
+	border: 2px ridge;
+	text-align: center;
+
+}
+.bottom
+{
+	border-bottom: 0;
+}
+.top
+{ 
+	border-top: 0;
+}
+.right
+{
+	border-right:0;
+}
+.left
+{
+	border-left:0;
+}
+th
+{
+	text-align: right;
+}

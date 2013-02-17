@@ -1,0 +1,14 @@
+table, td
+{
+	border-collapse: collapse;
+	border: 1px #ccc solid;
+}
+input
+{ 
+	margin: 5px;
+}
+.FirstColumn
+{
+	text-align: right;
+	font-weight: bold;
+}
